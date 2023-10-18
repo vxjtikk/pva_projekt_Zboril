@@ -93,6 +93,7 @@ body {
 
 }
 
+
 .text-center {
     text-align: center;
 }
@@ -104,6 +105,10 @@ body {
 
 .py-1 {
     padding: 1.5rem 0;
+}
+
+.py-2 {
+    padding: 2rem;
 }
 
 #what .items {
@@ -122,6 +127,47 @@ body {
     padding: 1rem;
     border-radius: 50%;
     margin-bottom: 1rem;
-    hei
+}
 
+#who {
+    display: flex;
+}
+
+#who div {
+    flex: 1 ;
+}
+
+#who .who-img {
+    background: url(../img/this-is-fine.webp) no-repeat center center/cover;
+}
+
+.bg-light {
+    background: #fff;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.p-1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+
+.list {
+    margin: 0.5rem 0;
+    list-style: none;
+}
+
+.list li {
+    padding: 0.5rem 0;
+    border-bottom: #333 dotted 1px;
 }
