@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEME | internetový fenomén</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./css/styl.css">
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: aliceblue;
+      }
+      .container {
+        max-width: 800px;
+        background-color: 333;
+        margin: 50px auto;
+        padding: 50px;
+        border: solid 1px black;
+        box-shadow: rgba(20, 20 , 20, 0.674) 0px 5px 15px;
+        border-radius: 10px;
+      }
+      table, th, td {
+  border:3px solid black;
+      }
+    </style>
+  </head>
+<body id="home">
+    <nav id="navbar">
+        <div id="logo"><a href="index.html">MEME | <span class="text-primary"> internetový fenomén</span></a></div>
+            <ul>
+                <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#what">Co je to MEME?</a></li>
+                <li><a href="#proc">Formulář</a></li>
+                <li><a href="search.html">Search</a></li>
+            </ul>
+        </div>
+    </nav>
+    <center>
+    <section>
+    <div class="container">
+      <h1 class="form-title">Registrace</h1>
+      <form action="#">
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="fullName">Jméno</label>
+            <input type="text"
+                    id="fullName"
+                    name="fullName"
+                    placeholder="zadej jméno"/>
+          </div>
+          <div class="user-input-box">
+            <label for="username">Přijmení</label>
+            <input type="text"
+                    id="username"
+                    name="username"
+                    placeholder="zadej příjmení"/>
+          </div>
+          <div class="user-input-box">
+            <label for="email">Email</label>
+            <input type="email"
+                    id="email"
+                    name="email"
+                    placeholder="zadej email"/>
+          </div>
+          <div class="user-input-box">
+            <label for="phoneNumber">Telefoní číslo</label>
+            <input type="text"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    placeholder="zadej telefoní číslo"/>
+        </div>
+        <div class="gender-details-box">
+          <span class="gender-title">Pohlaví</span>
+          <div class="gender-category">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Muž</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Žena</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Jiné</label>
+          </div>
+        </div>
+        <div class="form-submit-btn">
+          <input type="submit" value="Registrovat">
+        </div>
+      </form>
+    </div>
+    </section>
+    <section>
+      <table>
+        <thead>
+            <tr>
+                <th>Váš MEME template </th>
+                <th>Náročnost vytvoření MEMU</th>
+                <th>Čas na vytvoření MEMU</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>12.8.2023</td>
+                <td>Běhání</td>
+                <td>6/10</td>
+            </tr>
+            <tr>
+                <td>15.8.2023</td>
+                <td>Calisthenics</td>
+                <td>8/10</td>
+            </tr>
+            <tr>
+                <td>18.8.2023</td>
+                <td>Běhání</td>
+                <td>6/10</td>
+            </tr>
+            <tr>
+                <td>29.8.2023</td>
+                <td>Sparring</td>
+                <td>10/10</td>
+            </tr>
+
+
+        </tbody>
+    </table>
+    </center>
+    </section>
+  </body>
+</html>
+</body>    

@@ -39,7 +39,7 @@ body {
     margin: 0 0.25rem; 
 } 
 #navbar ul li a:hover { 
-    background-color: rgb(250, 183, 250);
+    background-color: rgb(178, 173, 173);
     border-radius:
     5px; color: ■black; 
 }
@@ -83,7 +83,7 @@ body {
 }
 
 .btn:hover {
-    background-color: rgb(250, 183, 250);;
+    background-color: rgb(v);;
 }
 
 .container {
@@ -138,7 +138,7 @@ body {
 }
 
 #who .who-img {
-    background: url(../img/this-is-fine.webp) no-repeat center center/cover;
+    background: url(../img/this-is-fine.webp) no-repeat center center/contain;
 }
 
 .bg-light {
@@ -171,3 +171,4 @@ body {
     padding: 0.5rem 0;
     border-bottom: #333 dotted 1px;
 }
+
