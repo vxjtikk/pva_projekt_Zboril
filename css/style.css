@@ -171,4 +171,11 @@ body {
     padding: 0.5rem 0;
     border-bottom: #333 dotted 1px;
 }
-
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.col .card img {
+    max-width: 450px;
+    max-height: 250px;
+}
